@@ -1,0 +1,69 @@
+body {
+    font-family: monospace;
+    background-color: white;
+}
+
+.container {
+    background-color: #EBEBEB;
+}
+
+.header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #EBEBEB;
+  color: black;
+  text-align: center;
+  border-bottom: solid black 1px;
+}
+
+form {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EBEBEB;
+  color: white;
+  text-align: center;
+  border-top: solid black 1px;
+}
+
+.today {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.forecast {
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+}

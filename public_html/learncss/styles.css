@@ -1,0 +1,115 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  border-radius: 0 0 15px 15px;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border-color: black;
+}
+
+li {
+  float: left;
+  border-right: 1px solid lightgray;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+li a {
+  display: block;
+  color: steelblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #b4464b;
+}
+
+.active {
+  background-color: #82b446;
+}
+
+h1 {
+  margin: 50px 0 0 10px;
+  font-family: Garamond, serif;
+  font-weight: 600;
+  font-size: 48px
+}
+
+#story {
+  font-family: papyrus, fantasy;
+  font-weight: 100;
+  font-size: 23px;
+  margin: 10px;
+  border: 4px double steelblue;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border:1px solid black;
+}
+
+#bottom {
+  border-top: 1px solid black;
+  bottom: 0%;
+  position: fixed;
+}
+
+.pictures {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#nice {
+  margin: 20px 50px 20px 50px;
+  padding: 20px;
+  border: 2px solid black;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.redpill {
+  margin-right: 200px;
+ margin-left: 50px;
+  padding: 10px 40px 10px 40px;
+  background-color: tomato;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.bluepill {
+  margin-left: 200px;
+  margin-right: 50px;
+  padding: 10px 40px 10px 40px;
+  background-color: steelblue;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+#choose {
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a:link {
+  text-decoration: none;
+}
