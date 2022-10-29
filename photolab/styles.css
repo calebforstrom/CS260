@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+}
+
+.logo {
+    height: 30px;
+    width: 40px;
+}
+.nav-item{
+    font-family: monospace;
+}
+
+.donut {
+    border-radius: 1%;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blurb {
+    margin: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: #e3f2fd;
+    border: 1px solid black;
+    border-radius: 30%;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.grid {
+    width: 100%;
+}
+
+.container {
+    margin-top: 10px;
+}
+.review {
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .donut {
+      width: 95%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ .donut {
+      width: 95%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .donut {
+      width: 66%;
+  }
+  .blurb {
+      width:70%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+  }
+  
+  .button {
+      display: block;
+      text-align: center;
+      width: 100%;
+  }
+  
+}
