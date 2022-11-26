@@ -1,0 +1,170 @@
+.promotion {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  background-color: lightgray;
+}
+
+.sidebar {
+    margin: 20px 40px 10px 0;
+}
+
+.shop {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-bottom: black 1px solid;
+}
+
+a {
+    color: black;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.top {
+    margin-top: 30px;
+    width: 60%;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ooga {
+    color: blue;
+}
+
+.construct {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contactheader {
+    text-align: center;
+    
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+#dogimg {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.breedselect {
+  width: 25%;
+  display: flex;
+  margin: auto;
+}
+
+.logo {
+    float: right;
+    height: 50px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  .dogquote {
+      float:right;
+      text-align: center;
+      width: 40%;
+      margin-right: 20px;
+      margin-top: 20px;
+  }
+  
+  .sidebar {
+      width:100% !important;
+  }
+  
+  .top {
+      width: 100%;
+  }
+  
+  .featured {
+      width: 100%;
+  }
+  
+  #dogimg {
+  width: 100%;
+  }
+
+  
+  .shoplogo {
+      height: 0px;
+  }
+  
+  .breedselect {
+  width: 100%;
+  }
+}
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .dogquote {
+    float: right;
+    font-size: 48px;
+    margin:400px 300px 0 0;
+    width: 500px;
+}
+  
+  .featured {
+    width:100%;
+    height: 220px;
+    border: black 1px solid;
+}
+  
+}
